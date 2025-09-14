@@ -1,0 +1,116 @@
+switch (module) {
+      case 'ncc-items':
+        return ['wingz green cap', 'ncc tracksuit', 'ceremonial item ncc', 'ncc all item'];
+      case 'scout-items':
+        return ['scout and guide all items', 'scout and guide fabric'];
+      case 'shoes':
+        return [
+          'wildfoot tango tan',
+          'wildfoot tango black',
+          'wildfoot oscar tan',
+          'wildfoot oscar black',
+          'wildfoot oxford tan',
+          'wildfoot oxford black',
+          'wildfoot officer tan',
+          'gsf dms',
+          'gsf regular cut',
+          'gsf derby black heavy',
+          'gsf derby tan',
+          'sega white shoes',
+          'legwork tan',
+          'legwork black',
+          'sega black',
+          'sega brown',
+          'gsf white sports shoes',
+          'cosmo dms',
+        ];
+      case 'summer-cap':
+        return ['summer cap'];
+      case 'barret-cap':
+        return [
+          'soft-touch blue',
+          'khakhi barret cap',
+          'attack blue',
+          'wingz black cap',
+          'air wingz preium blue',
+        ];
+      case 'tshirt':
+        return [
+          'cotton t-shirts',
+          'dry fit t-shirts',
+          'wingz ncc t-shirt blue',
+          'wingz ncc t-shirt white',
+          'wingz gp logo t-shirt new',
+          'wingz gp logo t-shirt old',
+          'wingz plain white t-shirt',
+          'wingz plain white full sleeve',
+          'wingz gp logo full sleeve',
+          'wingz gp logo lisu kapad',
+          'wingz forest logo t-shirt',
+          'javline army t-shirt',
+          'wingz trb t-shirt',
+          'javline army trackpant',
+          'wingz fire t-shirt',
+          'vega dt t-shirt',
+          'vega dt white',
+          'vega black t-shirt',
+          'cb black lower',
+          'cb blue lower',
+          'cb blue ncc lower',
+          'vega pt lower',
+          'vega white lower',
+          'vega dbl lower',
+          'trackpant lycra black',
+          'cb white lower',
+          'vega tracksuit el',
+          'camo t-shirt',
+          'camo trackpant',
+          'cb crown net trackpant blue',
+          'cb crown net trackpant black',
+          'trackpant lycra blue',
+          'wingz khakhi t-shirt',
+          'upper grey/black without logo',
+          'upper grey/black with logo',
+          'upper blue with logo',
+        ];
+      case 'security-items':
+        return ['security t-shirt', 'security jacket', 'plain black-tshirt', 'unknown'];
+      case 'belts':
+        return ['leather belt', 'nylon belt'];
+      case 'peak-cap':
+        return [
+          'peak cap khakhi light',
+          'peak cap khakhi dark',
+          'peak cap black dark khakhi',
+          'peak cap black',
+          'peak cap blue',
+          'khakhi black peak shd.1',
+          'self peak shd.1',
+        ];
+      case 'socks':
+        return ['cut socks', 'long socks'];
+      case 'uniforms':
+        return ['uniforms and safari'];
+      case 'other-items':
+        return [
+          'colonal jersey',
+          'buckle',
+          'oswal jersey',
+          'colonal jersey patali',
+          'items',
+          'oswell jersey black',
+          'shoulder badge',
+          'khakhi jacket full sleeve',
+          'khakhi jacket half sleeve',
+        ];
+      case 'lanyard':
+        return ['lanyard'];
+      case 'khakhi-fabric':
+        return ['g-oswal fabric'];
+      default:
+        return [];
+    }
+
+
+
+   
