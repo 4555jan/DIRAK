@@ -68,7 +68,7 @@ void saveEntry() {
     'stockOut': stockOut,
     'stock': stock,
     'totalStock': stockIn - stockOut,
-    'totalstockhit': totalstockhit, // ✅ ADD THIS LINE
+    'totalstockhit': totalstockhit, 
     'barcode': widget.initialData['barcode'] ??
         '${widget.subcategory.toLowerCase().replaceAll(' ', '_')}_${name.toLowerCase().replaceAll(' ', '_')}',
     'category': widget.category,
